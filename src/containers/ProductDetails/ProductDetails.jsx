@@ -3,7 +3,7 @@ import './ProductDetails.css';
 import { bringDetails } from '../../services/apiCalls';
 
 
-/* const ProductDetails = ({product}) => {
+const ProductDetails = ({product}) => {
 
     return (
         <div className='productInfoDesign'>
@@ -15,9 +15,9 @@ import { bringDetails } from '../../services/apiCalls';
             <div className='Description'>{product.description}</div>
         </div>
     )
-} */
+} 
 
-useEffect(()=>{
+/* useEffect(()=>{
     const fecthData = async () => {
         let response = await bringDetails(searchInput);
         let results = response.data.results
@@ -51,6 +51,6 @@ if (product.length > 0) {
         </div>
         </div>
     );
-};
+};*/
 
-export default ProductDetails;
+export default ProductDetails; 
